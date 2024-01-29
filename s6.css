@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(124, 236, 251);
+}
+
+header{
+    background-color: rgb(4, 0, 255);
+    height: 200px;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    color: azure;
+}
+p{
+    color: darkorange;
+    font-size: 30px;
+    font-style: italic;
+}
+main{
+    height: 800px;
+    display: flex;
+}
+
+.left{
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-color:  red;
+}
+
+
+.right{
+    float: right;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(59, 139, 28);
+}
